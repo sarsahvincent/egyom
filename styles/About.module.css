@@ -1,0 +1,300 @@
+.heroContainer {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.heroTitle {
+  flex: 2;
+  font-weight: 900;
+}
+.heroTitle h2 {
+  font-size: 2.4em;
+  font-weight: 700;
+}
+.heroText {
+  flex: 3;
+  text-align: left;
+  width: 50%;
+}
+.heroImageContent {
+  width: 100%;
+  background-image: url("../public/images/AboutHero.svg");
+  width: 100%;
+  height: 55vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.heroSubtitle {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  width: 40%;
+  text-align: left;
+  margin-bottom: 150px;
+}
+
+.heroSubtitle h2 {
+  font-size: 2.4em;
+}
+.AboutCardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 50px;
+}
+
+.reasons {
+  background-color: #f6f6f6;
+  padding: 1rem;
+
+  margin-top: 100px;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.reasonsText {
+  flex: 1;
+  width: 20px;
+  padding-left: 10px;
+}
+.reasonsText p {
+  width: 60%;
+}
+.reasonsCrads {
+  flex: 3;
+}
+
+.AboutCard {
+  display: flex;
+  padding: 30px;
+  border: 2px solid #d4c7c756;
+  border-radius: 5px;
+  width: 400px;
+  height: 130px;
+  margin: 10px;
+  background-color: white;
+}
+
+.aboutCardTitleInfo {
+  flex: 9;
+}
+
+.aboutCardinfo {
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+.aboutCardColor {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #808080;
+  margin-right: 20px;
+}
+
+.joinButton {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 15px 10px;
+  border-radius: 30px;
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  margin-top: 20px;
+}
+
+.joinButton:hover {
+  background: #ff9400;
+  cursor: pointer;
+}
+
+.headerTitle {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 30px;
+  color: #808080;
+}
+.headerSubTitle {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.teamCardContainer {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.teamCard {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.teamCard p {
+  margin: 0px;
+}
+
+.policyDot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: black;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.termsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.termsContainer section h4 {
+  color: gray;
+  font-size: 24px;
+}
+.termsContainer section h2 {
+  margin-top: -20px;
+  font-size: 32px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .heroContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .AboutCardContainer {
+    padding: 0;
+  }
+  .heroText {
+    width: 90%;
+  }
+  .heroText p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .heroTitle h2 {
+    font-size: 20px;
+  }
+  .heroTitle {
+    margin-bottom: -20px;
+  }
+
+  .heroImageContent {
+    width: 100%;
+    height: 90px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -30px;
+  }
+
+  .heroSubtitle {
+    width: 90%;
+    margin-top: 50px;
+  }
+  .heroSubtitle h2 {
+    font-size: 20px;
+  }
+  .heroSubtitle p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* reasons */
+
+  .reasons {
+    background-color: #f6f6f6;
+    /*  padding: 3rem;
+    margin-top: 100px; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 100%;
+    margin: 0 auto;
+  }
+  .reasonsText {
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .reasonsText p {
+    width: 100%;
+    font-size: 16px;
+  }
+  .reasonsText h2 {
+    margin-top: -100px;
+    font-size: 20px;
+  }
+  .joinButton {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    width: 130px;
+    margin: 20px 0px;
+  }
+
+  .AboutCard {
+    height: 150px;
+  }
+
+  .teamCardContainer {
+    justify-content: center;
+  }
+  .termsContainer {
+    width: 90%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 768px) {
+}
+
+/* pad Pro  */
+@media (width: 1024px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 769px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1366px) {
+}
+
+/* Extra large screens */
+@media (min-width: 1367px) {
+}

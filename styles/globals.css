@@ -1,0 +1,68 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+h4 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+h6 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+b{
+  font-size: 16px;
+}
+
+/* 
+
+Extra small devices (portrait phones, less than 576px) 
+@media (max-width: 575.98px) {}
+
+Small devices (landscape phones, 576px and up) 
+@media (min-width: 576px) and (max-width: 768px) {}
+
+pad Pro 
+@media (width: 1024px) {}
+
+Medium devices (tablets, 768px and up) 
+@media (min-width: 769px) and (max-width: 991.98px) {}
+
+Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1366px) {}
+
+Extra large screens 
+@media (min-width: 1367px) {}
+
+*/

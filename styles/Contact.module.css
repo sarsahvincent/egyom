@@ -1,0 +1,208 @@
+.heroContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -40px;
+}
+.heroHeading {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.contactFormHeading {
+  font-weight: 700 !important;
+}
+.heroImage {
+  margin-left: 100px;
+  flex: 3;
+  align-items: end;
+}
+
+.heroButton1 {
+  font-size: 18px;
+  color: white;
+  background-color: orange;
+  margin-right: 10px;
+  height: 60px;
+
+  border-radius: 30px;
+  border: none;
+  padding: 20px 40px;
+}
+
+.heroButton1:hover {
+  cursor: pointer;
+  background: #ff9400;
+}
+
+.contactFormContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #f6f6f6;
+  height: 47rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+
+.contactFormContainer input {
+  width: 100%;
+  border: 1px solid rgb(230, 219, 219);
+  color: gray;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  height: 40px;
+}
+
+.contactFormContainer ::placeholder {
+  width: 100%;
+  font-size: 14px;
+  color: lightgray;
+}
+
+.contactFormContainer select {
+  width: 100%;
+  font-size: 16px;
+  color: lightgray;
+  padding: 0 20px;
+  border: 1px solid rgb(230, 219, 219);
+  height: 40px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+.contactFormContainer textarea {
+  width: 100%;
+  font-size: 16px;
+  color: gray;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+
+.contactFormContainer textarea:focus {
+  outline: none;
+}
+.contactFormContainer input:focus {
+  outline: none;
+}
+.contactFormContainer label {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.contactFormContainer button {
+  width: 150px;
+  font-size: 16px;
+  color: white;
+  background-color: orange;
+  padding: 0px 20px;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.contactForm {
+  flex: 1;
+  padding: 30px 30px;
+  background-color: white;
+  margin-right: 20px;
+  border-radius: 6px;
+
+  height: 42rem;
+  margin-bottom: 2rem;
+}
+
+.map {
+  align-items: center;
+  padding: 5px;
+  height: 42rem;
+  margin-bottom: 2rem;
+  border: 1px solid orange;
+  flex: 1;
+  border-radius: 6px;
+  width: 100%;
+}
+.map iframe {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+@media (max-width: 575.98px) {
+  .heroContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .heroImage {
+    margin-left: 0px;
+    padding: 0 10px;
+    margin-top: -15px;
+  }
+  .heroHeading {
+    font-size: 20px;
+    margin-top: -40px;
+  }
+
+  .heroButton1 {
+    font-size: 18px;
+    color: white;
+    background-color: orange;
+    margin-right: 10px;
+    height: 40px;
+    margin-bottom: 60px;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 40px;
+  }
+
+  .AboutCardContainer {
+    margin-top: 40px;
+  }
+
+  .contactFormContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    background-color: #f6f6f6;
+    height: 42rem;
+    padding: 0;
+  }
+  .contactForm {
+    margin: 0px;
+    padding: 5px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .contactFormContainer button {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .map {
+    padding: 0;
+    border-radius: 6px;
+    width: 98%;
+    border: none;
+    margin: 0 auto;
+  }
+  .map iframe {
+    height: 180px;
+
+    border: none;
+  }
+}

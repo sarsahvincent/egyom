@@ -1,0 +1,223 @@
+.footerContainer {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.footerLinksContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+.linksContainer {
+  padding-top: 10px;
+}
+
+.line hr {
+  color: teal;
+  border-width: 1px;
+}
+
+.locationOnIcon {
+  color: #009e20;
+}
+.phoneIcon {
+  color: blue;
+  margin-right: 2px;
+}
+.emailIcon {
+  color: orange;
+  margin-right: 2px;
+}
+.header {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 2px;
+}
+.logoHeading {
+  margin-bottom: -20;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  padding: 8px 0px;
+}
+
+.lastSection {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.lastSectionMobile {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px 20px;
+
+  align-items: center;
+}
+
+.copyRight {
+  display: flex;
+  align-items: center;
+}
+.copyRightMobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.privacy {
+  display: flex;
+  color: gray;
+}
+.privacy p:first-child {
+  display: flex;
+  margin-right: 20px;
+}
+
+.copyRightYear {
+  color: black !important;
+  font-weight: 400;
+}
+.copyRight p {
+  margin: 0px 10px;
+  color: grey;
+  font-weight: 600;
+}
+
+.subscribeContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footerdescription {
+  width: 150px;
+  margin-top: -20px;
+}
+.subscribeContainer input {
+  color: gray;
+  font-size: 16px;
+  width: 68%;
+  margin: 0 auto;
+  height: 35px;
+  border-radius: 6px;
+  margin-right: -10px;
+  border: 1px solid #d8d8d8;
+  padding-left: 20px;
+}
+.subscribeContainer input:focus {
+  outline: none;
+  text-align: justify;
+}
+
+.subscribeContainer button {
+  font-size: 16px;
+  color: white;
+  background-color: orange;
+  padding: 0px 20px;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+
+  cursor: pointer;
+}
+
+.subscribeContainer button:hover {
+  background: #ff9400;
+  cursor: pointer;
+}
+
+.terms:hover {
+  cursor: pointer;
+}
+
+.quickLinkDsktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.quickLinkMobile {
+  display: none;
+}
+
+.scialLinksDektop {
+}
+
+.socialLinksMobile {
+  display: none;
+}
+
+.socailIcon {
+  margin: 10px 10px;
+}
+
+.socailIconDstp {
+  margin: 0 10px;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .footerLinksContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .footerdescription {
+    width: 100%;
+    margin-top: -10px;
+  }
+  .quickLinkDsktop {
+    display: none;
+  }
+  .quickLinkMobile {
+    display: flex;
+  }
+
+  .scialLinksDektop {
+    display: none;
+  }
+
+  .socialLinksMobile {
+    display: block;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 768px) {
+  .footerLinksContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* pad Pro  */
+@media (width: 1024px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 769px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1366px) {
+}
+
+/* Extra large screens */
+@media (min-width: 1367px) {
+}

@@ -1,0 +1,727 @@
+/* .container {
+  padding: 0px;
+  max-width: 1920px;
+} */
+
+.layoutContainerwidth {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 2px;
+}
+
+.categoryServicesHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.cardContentContainer {
+  width: 98%;
+}
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.skillTage {
+  color: white;
+  background: teal;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 8px;
+  margin: 0 10px;
+  font-weight: 600;
+}
+
+/* .skillTage2{
+  font-size: 14px;
+  text-align: center;
+  border-radius: 6px;
+  width: 100px;
+  margin: 5px;
+  padding: 5px 10px;
+  color: white;
+  background-color: #0eafaf;
+} */
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+.homepageHeroContainer {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.heroText {
+  font-size: 20px;
+  width: 70%;
+}
+
+.homepageHeroHeading {
+  font-size: 80px;
+  margin-bottom: -10px;
+}
+
+.homepageHeroButton1 {
+  font-size: 18px;
+  color: white;
+  background-color: orange;
+  margin-right: 10px;
+  height: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  padding: 20px 40px;
+}
+.homepageHeroButton1:hover {
+  background: #ff9400;
+  cursor: pointer;
+}
+
+.homepageHeroButton2 {
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  padding: 20px 40px;
+}
+
+.homepageCatergoryContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  background-color: rgba(211, 211, 211, 0.26);
+  padding: 0 2rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sectioncatSub h6 {
+  font-size: 25px;
+  text-align: center;
+
+  color: grey;
+}
+.sectioncatSub h4 {
+  font-size: 44px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.homepageCategoryImagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.professional {
+  background-color: rgba(211, 211, 211, 0.26);
+  padding: 0 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.homepageCatergoryButton {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.homepageCatergoryButton:hover {
+  background: #ff9400;
+  cursor: pointer;
+}
+
+.homepageCategoryImage {
+  background-color: #000000;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.homepageCatergoryButtonContainer {
+  margin-top: 20px;
+}
+
+.homepageCategoryImages {
+  height: 170px;
+  width: 170px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  border-radius: 8px;
+  margin: 0px;
+  position: relative;
+  opacity: 0.8;
+}
+
+.homepageCategoryImagesText {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  font-family: "Montserrat";
+}
+
+.getStartedContainer {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.clients {
+  margin-right: 35px;
+}
+.Howitworksimg {
+  margin-right: 55px;
+}
+
+.clientsImage {
+  margin-left: 35px;
+}
+.getStartedContainer section h2 {
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.getStartedContainer section h4 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.homepageClientContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+  text-align: left;
+  margin-top: 45px;
+  align-items: center;
+  margin: 0 auto;
+}
+.homepageProfContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+  text-align: left;
+  margin-top: 45px;
+  align-items: center;
+}
+
+.clientDiscriptipn {
+  display: flex;
+}
+
+.clientDiscriptipn b {
+  font-size: 20px;
+}
+
+.clientDiscriptipn h6 {
+  font-size: 20px;
+  color: #808080;
+}
+
+.clientDiscriptipnNumber {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.cardButton {
+  background-color: black;
+  color: white;
+  height: 40px;
+  border-radius: 6px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardContentReviews {
+  padding-bottom: -10px;
+}
+.MuiCardContent-root:last-child {
+  padding-bottom: 0;
+}
+.nameAndBookmarks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardProfileCardDescription {
+  width: 80%;
+  align-items: center;
+  margin-bottom: -20px !important;
+  text-align: start;
+  margin: 0 auto;
+}
+.cardContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardButton:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.profileDetailsContainer {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  justify-content: spac;
+  flex-wrap: wrap;
+  margin: 0 10px;
+}
+
+.categoryServicesHeaderResults {
+  color: gray;
+  font-weight: bold;
+}
+.cardProfileImage {
+  border-radius: 50%;
+  flex-wrap: wrap;
+  border: 0px;
+}
+.cardProfileImageContainer {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.cardProfileImageBorder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.communityContainer {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: #000000;
+  border-radius: 10px;
+  padding-left: 50px;
+  margin-top: 100px;
+  padding-top: 30px;
+}
+
+.communityListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 3;
+  text-align: left;
+  margin-right: 100px;
+}
+.communityListContainer header {
+  font-size: 25px;
+  font-weight: bold;
+}
+.communityList {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+}
+.communityIcon {
+  margin-right: 20px;
+}
+
+.communityImageContainer {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.communityButton {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+}
+
+.profileInfoDetailsContainer {
+  display: none;
+}
+
+.findAndHire h4 {
+  margin-top: -40px;
+}
+.communityButton:hover {
+  background: #ff9400;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .homepageCatergoryContainer {
+    padding: 0;
+    margin-top: 30px;
+  }
+  .homepageHeroContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .homepageHeroHeading {
+    font-size: 28px;
+    text-align: center;
+    margin-top: -10px;
+  }
+  .homepageHeroContainer:first-child p {
+    text-align: center;
+  }
+
+  .cardContentContainer {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .homepageCategoryImagesContainer {
+    max-width: 100%;
+  }
+  .heroText {
+    width: 100%;
+  }
+
+  .heroContainerText {
+    margin-bottom: 20px !important;
+  }
+
+  .buttonContainer {
+    display: flex;
+  }
+  .buttonContainer button {
+    font-size: 12px;
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .sectioncatSub h6 {
+    font-size: 12px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 30px;
+  }
+  .sectioncatSub h4 {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin: 0px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .homepageCategoryImagesContainer {
+    margin: 0 auto;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 0.2rem;
+    padding: 1rem;
+    width: 100%;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-x;
+    /* display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overscroll-behavior: contain;
+    scrollbar-width: none;
+    touch-action: pan-x;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch; */
+  }
+
+  .homepageCategoryImage {
+    margin: 6px;
+    flex: 0 0 auto;
+  }
+
+  .homepageCatergoryButton,
+  .homepageCatergoryButtonTitle {
+    margin-top: -30px;
+  }
+
+  .getStartedContainer section h2 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: -20px;
+  }
+
+  .getStartedContainer section h4 {
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .homepageClientContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+  .homepageProfContainer {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .homepageCatergoryButtonContainer {
+    margin-top: -30px;
+  }
+
+  .profileDetailsContainer {
+    margin: 0 auto;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 0.1rem;
+    margin: 0px -20px;
+    padding: 0.2rem;
+    width: 100%;
+    padding-left: 0;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+  }
+
+  .profileInfoDetailsContainer {
+    margin: 0 auto;
+    display: grid;
+  }
+
+  .communityContainer {
+    display: flex;
+
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 50px;
+    padding: 5px;
+  }
+
+  .container {
+    padding: 5px;
+  }
+
+  .findAndHire {
+    display: none;
+  }
+
+  .homepageCatergoryButtonContainer {
+    width: 90%;
+  }
+
+  .clientDiscriptipnNumber {
+    height: 30px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .communityImageContainer {
+    flex: 2;
+
+    padding-top: 10px;
+    padding-right: 0px;
+  }
+
+  .communityListContainer {
+    margin-right: 5px;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .communityIconMobile {
+    display: none;
+  }
+
+  .profileDetailsContainer {
+    margin: 0 10px;
+  }
+
+  .professional {
+    background-color: #f3eded74;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 768px) {
+}
+
+/* pad Pro  */
+@media (width: 1024px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 769px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1366px) {
+}
+
+/* Extra large screens */
+@media (min-width: 1367px) {
+}

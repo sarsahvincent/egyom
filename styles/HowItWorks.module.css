@@ -1,0 +1,84 @@
+.heroContainer {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -40px;
+  margin: 0 auto;
+}
+.heroHeading {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.heroImage {
+  margin-left: 100px;
+}
+
+.clientsProfessionals {
+  background: rgba(211, 211, 211, 0.26);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.heroButton1 {
+  font-size: 18px;
+  color: white;
+  background-color: orange;
+  margin-right: 10px;
+  height: 60px;
+
+  border-radius: 30px;
+  border: none;
+  padding: 20px 40px;
+}
+
+.heroButton1:hover {
+  background: #ff9400;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .heroContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 90%;
+  }
+
+  .heroHeading {
+    font-size: 28px;
+    text-align: center;
+    margin-top: -10px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .heroImage {
+    margin-left: 0px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 768px) {
+}
+
+/* pad Pro  */
+@media (width: 1024px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 769px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1366px) {
+}
+
+/* Extra large screens */
+@media (min-width: 1367px) {
+}

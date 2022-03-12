@@ -1,0 +1,217 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.login {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+}
+
+.image {
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.line {
+  width: 12.6rem;
+}
+
+.welcome {
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 700;
+  height: 40px;
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.forgotPasswordContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 700;
+  height: 22px;
+  margin: 10px 0;
+}
+
+.socialLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.loginWithSocialsLabel {
+  margin: 10px;
+}
+.loginWithSocialsLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  margin: 20px 0;
+}
+
+.button {
+  margin: 1rem 0;
+  background: orange;
+  text-transform: none;
+  font-weight: 600;
+  width: 105px;
+  height: 40px;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
+
+.button:hover {
+  background: #ff9400;
+  cursor: pointer;
+}
+
+.emailContainer {
+  height: 70px;
+  margin-bottom: 10px;
+}
+.passwordContainer {
+  width: 560px;
+  height: 70px;
+}
+
+.emailLabel {
+  height: 22px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.passwordLabel {
+  height: 22px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.googleIcon {
+  margin: 0 10px;
+}
+.createAccount {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+.createAccountContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create {
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+}
+@media (max-width: 575.98px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    margin-left: 0rem;
+    padding: 0 10px;
+  }
+  .loginFroms {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+  .emailContainer {
+    width: 100%;
+  }
+  .passwordContainer {
+    width: 100%;
+  }
+  .email {
+    width: 100%;
+  }
+  .password {
+    width: 100%;
+  }
+
+  .emailField {
+    width: 100%;
+  }
+  .button {
+    width: 100%;
+  }
+  .loginWithSocials {
+    width: 100%;
+    margin: 15px 0;
+  }
+  .socialLabel {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .line {
+    width: 29%;
+  }
+  .createAccountContainer {
+    display: block;
+    width: 100%;
+  }
+  .createAccount {
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    align-items: center;
+    width: 100%;
+  }
+  .create {
+    margin-left: 5px;
+  }
+
+  .image{
+      margin-top: -10px;
+  }
+}

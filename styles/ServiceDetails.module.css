@@ -1,0 +1,585 @@
+.profileDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  width: 300px;
+}
+.profileDetailsListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.details {
+  padding: 0 30px;
+  width: 95% !important;
+  padding-bottom: 40px;
+}
+
+/* Portfolio */
+.profileCommentsContainer {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.profileReviewContent {
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.profileReviewContent button {
+  color: white;
+  background: black;
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 6px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.modaDotsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modaDots {
+  width: 15px;
+  height: 15px;
+  background: gray;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.modaDotsActive {
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.categorySettingsContainer {
+  flex: 1;
+  padding-left: 25px;
+}
+.categoryServicesContainer {
+  flex: 3;
+}
+.categoryContainer {
+  background-color: rgba(211, 211, 211, 0.26);
+  padding: 40px 0;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+.categoryContainerMobile {
+  display: none;
+}
+
+.servicessSummary {
+  display: block;
+}
+.servicessSummaryMobile {
+  display: none;
+}
+.detailsDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: gray;
+}
+.details {
+  background: white;
+  width: 100%;
+  border-radius: 5px;
+}
+/* .DetailsAndReq{
+  padding: 0 30px;
+} */
+
+.detailsHeadingSub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+  flex: 0.5;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.orderBtn {
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  width: 200px;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 20px 0;
+}
+.orderBtn:hover {
+  background: #ff9400;
+  cursor: pointer;
+}
+
+.contactBtn {
+  display: none;
+}
+.contactBtn:hover {
+  background: white;
+  cursor: pointer;
+  color: black;
+}
+.detailsHeadingAmout {
+  flex: 0.5;
+  text-align: right;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.detailsHeadingSub button {
+  color: white;
+  background: teal;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 8px;
+  margin: 0 10px;
+  font-size: 16px !important;
+}
+
+.featuresAndMoney {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.featuresAndMoney button {
+  color: white;
+  background: teal;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 8px;
+  margin: 10px 0;
+  font-size: 16px !important;
+}
+.schAndYear {
+  color: gray;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.profileSkills {
+  color: white;
+  background: teal;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 8px;
+  margin: 0 10px;
+  font-weight: 600;
+}
+.detailsHeadingMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+.detailsHeadingMainMobile {
+  display: none;
+}
+.detailsPost {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.serviceDetailsHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.serviceDetailsHeading h4 {
+  text-align: center;
+  color: gray;
+  font-size: 20px;
+}
+.serviceDetailsHeading h2 {
+  text-align: center;
+  font-size: 34px;
+  margin-top: -20px;
+}
+
+.detailSkills button {
+  color: white;
+  background: teal;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 8px;
+  margin: 0 10px;
+  font-weight: 600;
+}
+.serviceDetailsHeading button {
+  text-align: center;
+  align-items: center;
+  width: 200px;
+  color: white;
+  background: black;
+  border-radius: 6px;
+  padding: 10px 0;
+  margin-bottom: 40px;
+  border: none;
+}
+
+.iconButton {
+  display: flex;
+  align-items: center;
+}
+.rating {
+  color: orange;
+  font-size: 18px;
+}
+.nameAndCertification {
+  display: flex;
+  align-items: center;
+}
+.nameAndCertification b {
+  margin-right: 15px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.profileImage {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.hr {
+  height: 1.5px;
+  background: rgb(228, 222, 222);
+  border: none;
+}
+
+.modalPicsContainerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  margin-top: 10px;
+  width: 95%;
+}
+
+.modalPics {
+  border-radius: 6px;
+}
+
+.cardButton {
+  display: flex;
+  justify-content: space-between;
+}
+.profileFlag {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  padding: 1px;
+  align-items: center;
+}
+
+.profileImageContainer {
+  display: flex;
+}
+.contactButton {
+  width: 100px;
+  padding: 5px 0;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  background: orange;
+}
+
+.searchSettingsButton1:hover {
+  background: #ff9400;
+  cursor: pointer;
+}
+.contactButtonInfo {
+  width: 100%;
+  padding: 5px 0;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  background: orange;
+}
+
+.contactButton:hover {
+  background: #ff9400;
+  cursor: pointer;
+}
+.contactButtonInfo:hover {
+  background: #ff9400;
+  cursor: pointer;
+}
+
+.profileButton {
+  color: white;
+  background: black;
+  width: 100px;
+  padding: 5px 0;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.profileButton:hover {
+  cursor: pointer;
+  color: black;
+  background: white;
+}
+
+.joined,
+.joinedSub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: 5px;
+}
+.profileDetailsListContainerMobile {
+  display: none;
+}
+
+.joined b {
+  padding-left: 10px;
+}
+
+.reviewContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 30px;
+}
+.reviewContentMobile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.profileDetailsNavigation {
+  display: none;
+}
+
+.reviewContentMobile button {
+  color: white;
+  background: black;
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 6px;
+  text-align: center;
+  margin: 20px 0;
+}
+.reviewContent button {
+  color: white;
+  background: black;
+  width: 100px;
+  padding: 10px 10px;
+  border-radius: 6px;
+  text-align: center;
+}
+.commentsContainer {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+  margin-left: 20px;
+}
+.commentsContainerMobile {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.commentsPic {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.commentsCommen {
+}
+.commentProfileImage {
+  margin: 10px;
+  border-radius: 50%;
+  width: 100%;
+}
+.commentNameRating {
+  display: flex;
+  align-items: center;
+}
+.commentNameRating b {
+  margin-right: 10px;
+}
+.buyerComment p {
+  margin: 0;
+}
+.commentsDuration {
+  color: gray;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .categoryContainer {
+    display: none;
+  }
+  .categoryContainerMobile {
+    display: block;
+  }
+
+  .profileDetailsNavigation {
+    display: block;
+    background-color: #f3eded74;
+    padding: 20px 0;
+    width: 100%;
+  }
+
+  .profileDetailsListContainer {
+    display: none;
+  }
+
+  .profileDetailsListContainerMobile {
+    display: block;
+  }
+  .details {
+    padding: 0 10px;
+    width: 95% !important;
+    padding-bottom: 40px;
+    margin: 0 auto;
+  }
+  .cardContentMobile {
+    width: 100%;
+  }
+  .profileDetailsContainer {
+    width: 95%;
+  }
+
+  .css-46bh2p-MuiCardContent-root {
+    padding: 5px;
+  }
+  .categorySettingsContainer {
+    flex: 1;
+    padding: 0;
+  }
+
+  .joined,
+  .joinedSub {
+    padding-left: 10px;
+    padding-right: 25px;
+  }
+
+  /* Porfolio */
+
+  .cardButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .contactButton {
+    width: 100%;
+  }
+  .profileButton {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .servicessSummary {
+    display: none;
+  }
+  .servicessSummaryMobile {
+    display: block;
+  }
+
+  .orderBtn {
+    width: 100%;
+  }
+
+  .modalPicsContainerContainer {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overscroll-behavior: contain;
+    scrollbar-width: none;
+    touch-action: pan-x;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .modalPicsContainerContainer:last-child {
+    position: relative;
+  }
+
+  .modalPicsContainerContainer {
+    -ms-overflow-style: none;
+  }
+  .modalPicsContainerContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .modalPicsContainerContainer:last-child::after {
+    position: absolute;
+    left: 100%;
+    height: 1px;
+    width: 20px;
+    display: block;
+    content: "";
+  }
+
+  .contactBtn {
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .modalPics {
+    border-radius: 6px;
+  }
+  .modalPic {
+    border-radius: 6px;
+    width: 125px;
+    flex-shrink: 0;
+    margin: 0 10px;
+  }
+
+  .modalPic:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .detailsHeadingMain {
+    display: none;
+  }
+  .detailsHeadingMainMobile {
+    display: block;
+  }
+}

@@ -322,7 +322,7 @@ export default function ProfessionalsCard() {
               </div>
               <hr className={styles.hr} />
               <div className={styles.cardButton}>
-                <p className={styles.contactButtonInfo}>Contact mobile</p>
+                <p className={styles.contactButtonInfo}>Contact</p>
               </div>
               <ProfileDetailsNavigationTab data={serviceData} />
               <hr className={styles.hr} />

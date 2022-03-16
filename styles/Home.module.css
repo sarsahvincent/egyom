@@ -551,6 +551,10 @@
     justify-content: center;
     margin: 0 auto;
   }
+  .categoryServicesHeaderContainer {
+    width: 90%;
+    margin: 0 auto;
+  }
 
   .sectioncatSub h6 {
     font-size: 12px;

@@ -52,28 +52,23 @@ b {
   display: flex;
   align-items: center;
   justify-content: center;
- 
 }
 
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
   font-size: 12px;
 }
 
-
-
 @media (max-width: 575.98px) {
-  .css-1wnyfhu, .css-okq6nt {
+  .css-1wnyfhu,
+  .css-okq6nt {
     width: 95% !important;
   }
 
   .css-dw866z-MuiPaper-root-MuiCard-root {
     margin: 0 auto;
-    margin-top: 5px;
+    margin-top: 15px;
   }
-
 }
-
-
 
 /* 
 

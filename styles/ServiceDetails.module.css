@@ -441,6 +441,68 @@
   margin: 10px 0;
 }
 
+.ratingForm textarea {
+  width: 100%;
+  font-size: 16px;
+  color: gray;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.RatingsubmitBtn {
+  width: 150px;
+  font-size: 16px;
+  color: white;
+  background-color: orange;
+  padding: 0px 20px;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.cancelBtn {
+  width: 120px;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  padding: 0px 10px;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.ratingForm label {
+  font-weight: 700;
+}
+.ratingForm select {
+  font-weight: 700;
+  color: gray;
+  height: 35px;
+  width: 100%;
+  border-radius: 6px;
+  margin: 0 auto;
+  margin: 10px 0;
+}
+
+.ratingForm hr {
+  height: 2px;
+  background-color: rgb(185, 167, 167);
+}
+
+.ratingHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: -5px;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .categoryContainer {
@@ -581,5 +643,20 @@
   }
   .detailsHeadingMainMobile {
     display: block;
+  }
+
+  .ratingActionBtns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .ratingActionBtns button {
+    width: 45%;
+  }
+
+  .locaJoined {
+    width: 95%;
+    margin: 0 auto;
   }
 }

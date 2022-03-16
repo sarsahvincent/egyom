@@ -4,7 +4,6 @@ import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 import StarIcon from "@mui/icons-material/Star";
-import IconButton, { IconButtonProps } from "@mui/material/IconButton";
 import styles from "../styles/ServiceDetails.module.css";
 import Community from "../components/Community";
 import Footer from "../components/footer";
@@ -12,6 +11,11 @@ import ServiceCard from "../components/ServiceCard";
 import { ServiceDetailsModal } from "../components/ServiceDetailsModal";
 import Pagination from "../components/Pagination";
 import SkillTag from "../components/SkillTag";
+import Backdrop from "@mui/material/Backdrop";
+import Box from "@mui/material/Box";
+import Modal from "@mui/material/Modal";
+import Fade from "@mui/material/Fade";
+import CloseIcon from "@mui/icons-material/Close";
 
 interface Details {
   name: string;
@@ -56,8 +60,27 @@ const data: Details[] = [
   },
 ];
 
+const style = {
+  position: "absolute" as "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  bgcolor: "background.paper",
+  padding: 0,
+  borderRadius: "5px",
+  p: 2,
+  fontSize: 16,
+  width: "500px",
+};
+
 const ServicesDetails: NextPage = () => {
   const [searchOption, setSearchOption] = useState("");
+  const [openRatingModal, setOpenRatingModal] = React.useState(false);
+  const handleOpenRatingModal = () => setOpenRatingModal(true);
+  const handleCloseRatingModal = () => setOpenRatingModal(false);
+
+  //HOOKS FOR FORM FIELDS ONLY
+  const [message, setMessage] = useState("");
   return (
     <div className={styles.container}>
       <Head>
@@ -68,6 +91,72 @@ const ServicesDetails: NextPage = () => {
       </Head>
 
       <main>
+        <div>
+          <Modal
+            aria-labelledby="transition-modal-title"
+            aria-describedby="transition-modal-description"
+            open={openRatingModal}
+            onClose={handleCloseRatingModal}
+            closeAfterTransition
+            BackdropComponent={Backdrop}
+            BackdropProps={{
+              timeout: 500,
+            }}
+          >
+            <Fade in={openRatingModal}>
+              <Box sx={style}>
+                <div className={styles.ratingForm}>
+                  <div className={styles.ratingHeader}>
+                    <h3>You are rating Ama.doe</h3>
+                    <CloseIcon onClick={handleCloseRatingModal} />
+                  </div>
+                  <hr />
+                  <form
+                    id="contact-form"
+                    onSubmit={(e) => {
+                      e.preventDefault();
+                    }}
+                    method="POST"
+                    style={{ display: "flex", flexDirection: "column" }}
+                  >
+                    <label htmlFor="namhowe">Rating</label>
+                    <select>
+                      <option value="grapefruit">Grapefruit</option>
+                      <option value="lime">Lime</option>
+                      <option selected value="coconut">
+                        Coconut
+                      </option>
+                      <option value="mango">Mango</option>
+                    </select>
+
+                    <label htmlFor="message">Message</label>
+                    <div className="form-group">
+                      <textarea
+                        rows={8}
+                        className="form-control"
+                        id="message"
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
+                      />
+                    </div>
+                    <div className={styles.ratingActionBtns}>
+                      <button type="submit" className={styles.RatingsubmitBtn}>
+                        Add Review
+                      </button>
+                      <button
+                        onClick={handleCloseRatingModal}
+                        type="submit"
+                        className={styles.cancelBtn}
+                      >
+                        Cancel
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </Box>
+            </Fade>
+          </Modal>
+        </div>
         <div className={styles.servicessSummary}>
           <div className={styles.serviceDetailsHeading}>
             <h4>Services Details</h4>
@@ -158,7 +247,7 @@ const ServicesDetails: NextPage = () => {
                       </span>
                     </div>
                   </div>
-                  <button>Rate Seller</button>
+                  <button onClick={handleOpenRatingModal}>Rate Seller</button>
                 </div>
                 <div className={styles.commentsContainer}>
                   <div className={styles.commentsPic}>
@@ -398,7 +487,7 @@ const ServicesDetails: NextPage = () => {
                       5.0
                     </div>
                   </div>
-                  <button>Rate Seller</button>
+                  <button onClick={handleOpenRatingModal}>Rate Seller</button>
                 </div>
                 <div className={styles.commentsContainerMobile}>
                   <div className={styles.commentsPic}>
